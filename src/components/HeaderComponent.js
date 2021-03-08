@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, Collapse, NavItem, Jumbotron, NavbarToggler } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -8,21 +8,23 @@ class Header extends Component {
     
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-          isNavOpen: false
+            isNavOpen: false,
+            isModalOpen: false
         };
       }
 
       toggleNav() {
         this.setState({
-          isNavOpen: !this.state.isNavOpen
+            isNavOpen: !this.state.isNavOpen
         });
-      }
+    }
 
     render() {
         return(
             <div>
                 <Navbar dark expand="md">
                     <div className="container">
+                    <NavbarToggler className="toggler" onClick={this.toggleNav} />
                         <NavbarBrand  href="/"><img src='assets/images/proOwned_logo.svg' height="60" width="121" alt='ProOwnedCycling' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

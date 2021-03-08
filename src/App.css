@@ -79,6 +79,11 @@ address{
 color: black;
 }
 
+.navbar-dark .navbar-nav > li > a:hover {
+  background-color: #cac6cf;
+  color: #a80b0b;
+}
+
 .navbar-brand {
   color: black;
 }
@@ -94,6 +99,20 @@ color: black;
   text-transform: uppercase;
 }
 
+.site-footer__block .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer__block__links a{
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+ul {
+  list-style: none;
+}
 
 .list {
   list-style-type: none;
@@ -103,4 +122,9 @@ color: black;
 
 .navbarTop {
   font-size: small;
+}
+
+.toggler {
+  color: black;
+  background-color: #74cdd9;
 }

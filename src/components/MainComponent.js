@@ -12,14 +12,12 @@ class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        employees: EMPLOYEES,
-        selectedDish: null
+        employees: EMPLOYEES
     };
   }
 
 
   render() {
-
 
       // const AboutPage = () => {
       //   return(

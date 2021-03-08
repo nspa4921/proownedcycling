@@ -1,9 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar, NavbarBrand } from 'reactstrap';
+
 
 function Footer() {
     return(
     <div className="footer">
+         <Navbar dark color="primary">
+            <div className="container">
+                <NavbarBrand className="navbarTop">
+                    <div class="container">
+                        <ul class="site-footer__block__links">
+                            <li><a href="/collections/shop-news">Shop News</a></li>
+                            <li><a href="/collections/popular">Popular</a></li>
+                            <li><a href="/pages/teams">Teams</a></li>
+                            <li><a href="/pages/brands">Brands</a></li>
+                        </ul>
+                    </div>
+                </NavbarBrand>
+            </div>
+        </Navbar>
         <div className="container">
             <div className="row" align="left">   
             <div className="col-3">
