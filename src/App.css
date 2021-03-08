@@ -128,3 +128,9 @@ ul {
   color: black;
   background-color: #74cdd9;
 }
+
+.navbar-nav .footer-links {
+  color: white;
+  font-size: medium;
+  padding-right: 10px;
+}

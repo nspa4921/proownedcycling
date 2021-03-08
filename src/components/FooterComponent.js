@@ -9,17 +9,28 @@ function Footer() {
          <Navbar dark color="primary">
             <div className="container">
                 <NavbarBrand className="navbarTop">
-                    <div class="container">
-                        <ul class="site-footer__block__links">
-                            <li><a href="/collections/shop-news">Shop News</a></li>
-                            <li><a href="/collections/popular">Popular</a></li>
-                            <li><a href="/pages/teams">Teams</a></li>
-                            <li><a href="/pages/brands">Brands</a></li>
+                <nav class="navbar navbar-expand-lg ">
+                    <div>
+                        <ul class="navbar-nav">
+                        <li>
+                            <a class="footer-links" href="/">SHOP NEWS </a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="/">POPULAR</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="/">TEAMS</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="/">BRANDS</a>
+                        </li>
                         </ul>
                     </div>
+                </nav>
                 </NavbarBrand>
             </div>
         </Navbar>
+        <br></br>
         <div className="container">
             <div className="row" align="left">   
             <div className="col-3">

@@ -37,7 +37,7 @@ export const EMPLOYEES = [
     },
     {
       id: 4,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -46,7 +46,7 @@ export const EMPLOYEES = [
     },
     {
       id: 5,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -56,7 +56,7 @@ export const EMPLOYEES = [
     ,
     {
       id: 6,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -65,7 +65,7 @@ export const EMPLOYEES = [
     },
     {
       id: 7,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -74,7 +74,7 @@ export const EMPLOYEES = [
     },
     {
       id: 8,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -83,7 +83,7 @@ export const EMPLOYEES = [
     },
     {
       id: 9,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -93,7 +93,7 @@ export const EMPLOYEES = [
     ,
     {
       id: 10,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -102,7 +102,7 @@ export const EMPLOYEES = [
     },
     {
       id: 11,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -111,7 +111,7 @@ export const EMPLOYEES = [
     },
     {
       id: 12,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -121,7 +121,7 @@ export const EMPLOYEES = [
     ,
     {
       id: 13,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -130,7 +130,7 @@ export const EMPLOYEES = [
     },
     {
       id: 14,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -139,7 +139,7 @@ export const EMPLOYEES = [
     },
     {
       id: 15,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -148,7 +148,7 @@ export const EMPLOYEES = [
     },
     {
       id: 16,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -157,7 +157,7 @@ export const EMPLOYEES = [
     },
     {
       id: 17,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',
@@ -166,7 +166,7 @@ export const EMPLOYEES = [
     },
     {
       id: 18,
-      name: 'Nemanja Spasic',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Frontend developer',
       abbr: 'FD',
@@ -175,7 +175,7 @@ export const EMPLOYEES = [
     },
     {
       id: 19,
-      name: 'Sune Sand',
+      name: 'anonymous antonym',
       image: '/assets/images/worker4.png',
       designation: 'Investor & Co-owner',
       abbr: 'CO',

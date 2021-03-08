@@ -8,14 +8,14 @@ import { Card, CardBody, Media } from 'reactstrap';
 
     function RenderEmployee({employee}) {
         return(
-            <div key={employee.id} className="col-12 mt-5">
+            <div key={employee.id} className="col-12 mt-4">
                 <Media tag="li">
                         <Media left middle>
                         <div class="col-md-2 text-md-left text-center">
                             <Media object src={employee.image} style={imgStyle} alt={employee.name} />
                         </div>
                         </Media>
-                        <Media body className="ml-2">
+                        <Media body className="ml-3">
                             <div>{employee.name}</div>
                             <p><strong>{employee.designation}</strong></p>
                         </Media>
@@ -76,7 +76,9 @@ import { Card, CardBody, Media } from 'reactstrap';
                         {employees}
                 </div>
             </div>
+            <br></br>
         </div>
+        
     );
 }
 
