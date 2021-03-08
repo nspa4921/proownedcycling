@@ -1,16 +1,24 @@
+import React, { Component} from 'react';
 import './App.css';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Main from './components/MainComponent';
+import { EMPLOYEES } from './shared/employees';
+import { BrowserRouter } from 'react-router-dom';
 
-class App extends Component {
+  class App extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        employees: EMPLOYEES
+      };
+    }
+
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">ProOwnedCycling</NavbarBrand>
-          </div>
-        </Navbar>
+        <Main />
       </div>
+    </BrowserRouter>
     );
   }
 }

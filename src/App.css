@@ -21,11 +21,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #74cdd9;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #74cdd9;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer {
+  background-color: white;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer a {
+  color: black;
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #f6f6f6 ;
+  color:black;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #74cdd9;
+}
+
+.navbar-dark .navbar-nav .nav-link.active  {
+color: black;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.bg-primary {
+  background-color: #000000!important;
+}
+
+.site-footer__block {
+  padding: 1.5rem 2rem;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  text-transform: uppercase;
+}
+
+
+.list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbarTop {
+  font-size: small;
 }

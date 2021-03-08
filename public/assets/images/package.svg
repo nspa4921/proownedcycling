@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Nav_Bar" transform="translate(-413.000000, -13.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Group-3" transform="translate(414.000000, 11.000000)">
+                <g id="Group" transform="translate(0.000000, 3.000000)">
+                    <path d="M10.125,6.2775 L10.125,11.3475 L4.5,11.3475 C3.879,11.3475 3.375,10.8435 3.375,10.2225 L3.375,0.66" id="Path"></path>
+                    <path d="M16.3125,4.5975 L16.3125,10.2225 C16.3125,10.8435 15.8085,11.3475 15.1875,11.3475 L10.125,11.3475" id="Path"></path>
+                    <path d="M2.8125,0.66 L0.62175,3.99 C0.54525,4.113 0.543,4.269 0.6165,4.39425 C0.69225,4.521 0.82875,4.59825 0.9765,4.59750541 L3.375,4.59750541" id="Path"></path>
+                    <path d="M10.26075,0.66 L11.7,4.251 C11.78775,4.461 11.9925,4.5975 12.21975,4.5975 L17.025,4.5975 C17.25375,4.5975 17.439,4.41225 17.439,4.1835 C17.439,4.131 17.42925,4.0785 17.40975,4.02975 L16.00875,0.65475" id="Path"></path>
+                    <line x1="2.8125" y1="0.66" x2="16.00725" y2="0.6525" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
